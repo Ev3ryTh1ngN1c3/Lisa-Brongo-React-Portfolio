@@ -14,9 +14,9 @@
   
   ## Description
 
-     This task involved creating a portfolio using React skills to showcase my projects as a web developer. <br>
-     The portfolio demonstates utilizing the latest technologies & deploys to Netlify for easy access <br>
-     & sharing with potential employers & collaborators.
+ This task involved creating a portfolio using React skills to showcase my projects as a web developer. <br>
+ The portfolio demonstates utilizing the latest technologies & deploys to Netlify for easy access <br>
+ & sharing with potential employers & collaborators.
  
   ## Usage 
 
