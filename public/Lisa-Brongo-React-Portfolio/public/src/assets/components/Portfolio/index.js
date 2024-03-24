@@ -1,41 +1,44 @@
 import React from "react";
-import homeBrewImage from "../../assets/small/";
-import summerPunchImage from "../../assets/small/";
-import weatherDashImage from "../../assets/small/";
-import noteTakerImage from "../../assets/small/";
-import twilightImage from "../../assets/small/";
-import flowerImage from "../../assets/small/";
-import sphereImage from "../../assets/small/";
+import htmlcssgitHomeworkdemoImage from "../../assets/small/01-html-css-git-homework-demo.png";
+import cuisineCompassImage from "../../assets/small/Cuisine Compass.png";
+import noteTakerImage from "../../assets/small/Note Taker.png";
+import passwordGeneratorImage from "../../assets/small/Password Generator.png";
+import portfolioPhotoImage from "../../assets/small/Portfolio Photo.png";
+import professionalREADMEGeneratorImage from "../../assets/small/Professional-README-Generator.png";
+import TaskWizImage from "../../assets/small/TaskWiz 5.png";
+import weatherDashboardImage from "../../assets/small/Weather Dashboard.png";
+import workdaySchedularImage from "../../assets/small/Work Day Scheduler.png";
 
 function Portfolio() {
   return (
     <div>
       <section id="work" className="jobs">
         <div className="flex-row">
-          <h2 className="section-title secondary-border">Work</h2>
+          <h2 className="section-title secondary-border">Course Work</h2>
         </div>
 
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Sweet-Pea-Flowers/">
+              <a href="https://github.com/Ev3ryTh1ngN1c3/Horiseon">
                 {" "}
                 <img
                   src={sphereImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="Sweet-Pea-Flowers"
+                  alt=""
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Sorcerer's Sphere</h4>
+              <h4>Horiseon</h4>
               <p>
-                A MERN application that lets the user log in and create an
-                account. The user can receive daily affirmations. The user also
-                has the ability to ask questions to receive an answer. The user
-                also can receive a lucky number if they want. The user can
-                donate money to the website if they want to.
+              This challenge is an on-the-job ticket example, which means I begin with starter code 
+              that needed to be modified. This challenge involved an important aspect of web development : 
+              accessibility. A common task for front-end & junior developers, taking existing code 
+              & refactor it (improve it without changing what it does) to meet a certain set of standards 
+              or implement a new technology. In this exercise, a marketing agency has hired me to refactor 
+              an existing site to make it more accessible.
               </p>
             </div>
           </div>
@@ -44,24 +47,24 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Sweet-Pea-Flowers/">
+              <a href="https://github.com/Ev3ryTh1ngN1c3/Cuisine-Compass">
                 {" "}
                 <img
-                  src={flowerImage}
+                  src={cuisineCompassImageImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="Sweet-Pea-Flowers"
+                  alt="Cuisine-Compass"
                 />
               </a>
             </div>
             <div className="job-text">
-              <h4>Sweet Pea Flowers</h4>
+              <h4>Cuisine Compass</h4>
               <p>
-                A HTMl, CSS, and Javascript application that lets the user shop
-                for their favorite flowers.The user can sign in as a guest or as
-                a user to add items to their cart. The user can manage their
-                cart by using local storage. The user can checkout and validate
-                their credit card.{" "}
+              This project is my first opportunity to show employers my collaborative skills
+              & coding abilities. Here is a demonstartion of what I can do 
+              & an example of working collaboratively with other developers. 
+              This deployed collaborative project is a recipe search engine for chefs
+              powered by two third party APIs.{" "}
               </p>
             </div>
           </div>
@@ -70,44 +73,24 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Twilight_Ristorante/">
+              <a href="https://github.com/Ev3ryTh1ngN1c3/New-Note-Taker">
                 {" "}
                 <img
-                  src={twilightImage}
+                  src={noteTakerImageImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="Twilight_Ristorante"
-                />
-              </a>
-            </div>
-            <div className="job-text">
-              <h4>Twilight Ristorante</h4>
-              <p>
-                A HTML and CSS application that lets the user explore a Sample
-                Restaurant Design.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://nameless-mountain-77177.herokuapp.com/">
-                {" "}
-                <img
-                  src={noteTakerImage}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="Note_Taker"
+                  alt="New-Note-Taker"
                 />
               </a>
             </div>
             <div className="job-text">
               <h4>Note Taker</h4>
               <p>
-                An application that provides the user the ability to add new
-                notes, and to delete notes.{" "}
+              The challenge for this  project was to create an application 
+              that can be used to write & save notes. This application used an Express.js back end 
+              and will save & retrieve note data from a JSON file.
+              The application’s front end was already been created. 
+              My job was to build the back end, connect the two & then deploy to Heroku.{" "}
               </p>
             </div>
           </div>
@@ -116,73 +99,122 @@ function Portfolio() {
         <div className="job">
           <div className="job-info">
             <div className="job-img">
-              <a href="https://lemming97.github.io/Weather_Dashboard/">
+              <a href="https://github.com/Ev3ryTh1ngN1c3/Password-Generator">
                 {" "}
                 <img
-                  src={weatherDashImage}
+                  src={passwordGeneratorImage}
                   className="my-2"
                   style={{ width: "100%" }}
-                  alt="Weather_Dashboard"
+                  alt="Password-Generator"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Password Generator</h4>
+              <p>
+              This JavaScript challenge required me to create an application that an employer can use 
+              to generate a random password based on criteria they've selected.
+              This app runs in the browser & features updated HTML & CSS powered by JavaScript code. 
+              It has a clean & polished user interface that is responsive, ensuring that it adapts 
+              to multiple screen sizes. This password can include special characters.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/Ev3ryTh1ngN1c3/Professional-README-Generator/">
+                {" "}
+                <img
+                  src={professionalREADMEGeneratorImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Professional-README-Generator"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Professional README Generator</h4>
+              <p>
+              This task was to create a command-line application that dynamically generates a professional README
+              file with a user's input using the Inquirer package to an external site.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/MarinaA01/taskwiz">
+                {" "}
+                <img
+                  src={taskWizImageImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="TaskWiz"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>TaskWiz</h4>
+              <p>
+              This is an interactive full-stack group project. The goal of this project was to create an 
+              opportunity to show my collaborative skills & coding abilities. This project's requirements 
+              was to create a real-world full-stack application.  This web developer to-do app is a comprehensive 
+              & user-friendly application that allows users to efficiently manage their tasks & stay organized {" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/Ev3ryTh1ngN1c3/Work-Day-Scheduler">
+                {" "}
+                <img
+                  src={workdaySchedularImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Work-Day-Scheduler"
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Work Day Scheduler</h4>
+              <p>
+              This project created a simple calendar application that allows a user to save events 
+              for each hour of a typical working day (9am–5pm).  The app runs in the browser & features 
+              dynamically updated HTML & CSS powered by jQuery.  A problem solved was to use a Day.js.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/Ev3ryTh1ngN1c3/Weather-Dashboard">
+                {" "}
+                <img
+                  src={homeBrewImage}
+                  className="my-2"
+                  style={{ width: "100%" }}
+                  alt="WeatherDashboard"
                 />
               </a>
             </div>
             <div className="job-text">
               <h4>Weather Dashboard</h4>
               <p>
-                A website that allows the user see the weather outlook for
-                multiple cities. The user can enter a city and see a 5-Day
-                Forecast. The user can see the temperature, humidity levels,
-                wind speed as well as the UV index.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://lemming97.github.io/Project_1/">
-                {" "}
-                <img
-                  src={summerPunchImage}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="SummerPunch"
-                />
-              </a>
-            </div>
-            <div className="job-text">
-              <h4>Summer Punch</h4>
-              <p>
-                A website which offers users to input a drink name to have the
-                ingredients, measurements, and images display. The user can also
-                have a cocktail generated. If the user is too young, the user
-                will be redirected to another page.{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="job">
-          <div className="job-info">
-            <div className="job-img">
-              <a href="https://floating-island-17357.herokuapp.com/">
-                {" "}
-                <img
-                  src={homeBrewImage}
-                  className="my-2"
-                  style={{ width: "100%" }}
-                  alt="HomeBrew"
-                />
-              </a>
-            </div>
-            <div className="job-text">
-              <h4>HomeBrew</h4>
-              <p>
-                A plant blog that allows the user to view seasonal gallery of
-                plants after the user logs into their account. The user can also
-                add comments to the blog once they are logged in as well as
-                deleting their comments.{" "}
+              The motivation for this project was to access data from a server-side API. 
+              This project built a weather dashboard that will run in the browser 
+              & feature updated HTML & CSS. This challenge is linked to an external site
+              & retrieves weather data for varies cities. I also learned about API keys.{" "}
               </p>
             </div>
           </div>
@@ -191,5 +223,7 @@ function Portfolio() {
     </div>
   );
 }
+
+
 
 export default Portfolio;
