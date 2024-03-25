@@ -7,7 +7,7 @@
 :root {
   /*main colors */
   --primary-color: #0e2459;
-  --secondary-color: #7591bf;
+  --secondary-color: #0d326c;
   --tertiary-color: #e3e8ed;
 }
 
@@ -20,7 +20,7 @@
 }
 
 body {
-  color: #c0cbd3;
+  color: #557892;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -44,7 +44,7 @@ code {
 flex layout, sticky positioning, & background image. */
 header {
   padding: 20px 35px;
-  background-color: #b0c0dc;
+  background-color: #224582;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -64,7 +64,7 @@ header h1 {
   font-weight: bold;
   margin: 0;
   font-size: 36px;
-  color: #0e3359;
+  color: #052844;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -72,7 +72,7 @@ header h1 {
 
 header a {
   text-decoration: none;
-  color: #0e2459;
+  color: #0d1534;
 }
 
 header nav {
@@ -94,7 +94,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: normal;
   font-size: 1.60vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(32, 43, 59, 0.5);
   border-radius: 15px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -105,8 +105,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: #0e2659;
-  color: #d5e0f2;
+  background: #010f2e;
+  color: #adafb4;
   border-radius: 15px;
   text-shadow: none;
   /*    transition: .5s ease-in;*/
@@ -140,19 +140,19 @@ header nav ul li a:hover {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-  color: #0e2c59;
+  color: #021529;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta p {
   font-size: 25px;
-  color: #324d8c;
+  color: #f1f3f6;
 }
 
 
 .intro p {
   line-height: 1.7;
-  color: #0e2459;
+  color: #031a50;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
@@ -181,7 +181,7 @@ header nav ul li a:hover {
 }
 
 .intro-text p {
-  color: #32568c;
+  color: #031734;
   font-size: 18px;
 }
 
@@ -191,7 +191,7 @@ header nav ul li a:hover {
 /* REACH OUT STYLES START */
 #reach-out {
   /* margin-top: 5px; */
-  background: #7599bf;
+  background: #abb8c4;
 }
 
 #reach-out h2 {
@@ -214,16 +214,16 @@ header nav ul li a:hover {
 
 .contact-form button:hover {
   color: #d5e3f2;
-  background: #3977b2;
+  background: #1a3854;
 }
 
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid #024c76;
+  border: 1px solid #133b52;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
+  color: #02131c;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
@@ -243,7 +243,7 @@ header nav ul li a:hover {
   width: 100%;
   border: none;
   background: #d5e5f2;
-  color: #024e76;
+  color: #0f425e;
   text-align: center;
   padding: 15px 0;
   font-size: 25px;
@@ -296,7 +296,7 @@ header nav ul li a:hover {
 }
 
 .contact-info a:hover {
-  color: #acdcf2;
+  color: #1b3e4e;
   transition: .5s ease;
 }
 
@@ -319,12 +319,12 @@ header nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #d5e7f2;
+  border-bottom: 1px solid #3b5a6e;
 }
 
 
 .job:nth-child(even) {
-  border-bottom: 1px solid #d5e3f2;
+  border-bottom: 1px solid #374757;
 }
 
 .job:last-child {
@@ -334,7 +334,7 @@ header nav ul li a:hover {
 .job-text h4 {
   font-size: 26px;
   line-height: 1.5;
-  color: #75a6bf;
+  color: #e9edee;
 }
 
 
@@ -379,7 +379,7 @@ header nav ul li a:hover {
 
 .job-img img:hover {
   /*    transition: .5s ease-in-out;*/
-  border: 5px solid #acd6f2;
+  border: 5px solid #ebeff1;
   transform: scale(1.1);
 }
 
@@ -440,7 +440,7 @@ header nav ul li a:hover {
 .article {
   margin: 10px;
   margin-bottom: 1em;
-  background-color: #b4c7d9;
+  background-color: #bbc8d1;
 }
 
 
@@ -466,7 +466,7 @@ header nav ul li a:hover {
 }
 
 .download-logo:hover {
-  color: #32758c;
+  color: #4f6972;
   opacity: 0.5;
   transition: .5s ease;
 }
@@ -482,7 +482,7 @@ header nav ul li a:hover {
 }
 
 .column-title {
-  color: #284e59;
+  color: #e2ecef;
   font-size: 25px;
   font-weight: bold;
 }
@@ -505,7 +505,7 @@ header nav ul li a:hover {
 
 /* start styles to <footer> */
 footer {
-  background: #d5e7f2;
+  background: #abb8c2;
   font-weight: bold;
   width: 100%;
   height: 100px;
@@ -520,13 +520,13 @@ footer {
 
 footer h2 {
 
-  color: #75aabf;
+  color: #0b384a;
   font-size: 15px;
   margin: 0;
 }
 
 footer p {
-  color: #75adbf;
+  color: #0d3a49;
   font-size: 15px;
   margin: 0;
   text-align: center;
@@ -544,7 +544,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #32748c;
+  color: #507886;
   transition: .5s ease;
 }
 
