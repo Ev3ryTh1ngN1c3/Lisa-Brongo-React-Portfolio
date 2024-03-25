@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Header from "../src/components/Header";
-import About from "../src/components/About";
-import Contact from "../src/components/Contact";
-import Portfolio from "../src/components/Portfolio";
-import Resume from "../src/components/Resume";
-import Footer from "../src/components/Footer";
+import Header from "./components/Header/index";
+import About from "./components/About/index";
+import Contact from "./components/Contact/index";
+// import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume/index";
+import Footer from "./components/Footer/index";
 import { Helmet } from "react-helmet";
 import "./App.css";
 
@@ -19,8 +19,8 @@ function App() {
         return <About />;
       case "Contact":
         return <Contact />;
-      case "Portfolio":
-        return <Portfolio />;
+      // case "Portfolio":
+        // return <Portfolio />;
       case "Resume":
         return <Resume />;
       default:

@@ -4,11 +4,11 @@
  * @returns {string} The string with the first letter capitalized.
  */
 export function capitalizeFirstLetter(string) {
-    if (typeof string !== 'string' || string.length === 0) {
-      throw new Error('Input must be a non-empty string');
-    }
+    // if (typeof string !== 'string' || string.length === 0) {
+    //   throw new Error('Input must be a non-empty string');
+    // }
   
-    return string.charAt(0).toUpperCase() + string.slice(1);
+    // return string.charAt(0).toUpperCase() + string.slice(1);
   }
   
   /**

@@ -40,7 +40,8 @@ code {
 
 
 
-/* start apply styles to <header> */
+/* Styling for the header section with padding, background color, 
+flex layout, sticky positioning, & background image. */
 header {
   padding: 20px 35px;
   background-color: #b0c0dc;
@@ -50,7 +51,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("..public/Lisa-Brongo-React-Portfolio/public/src/assets/cover/LinkedIn 2.png");
+  background-image: url("./assets/cover/LinkedIn2.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -114,7 +115,7 @@ header nav ul li a:hover {
 
 
 .hero {
-  background-image: url("..public/Lisa-Brongo-React-Portfolio/public/src/assets/cover/LinkedIn 2.png");
+  background-image: url("./assets/cover/LinkedIn2.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -126,9 +127,7 @@ header nav ul li a:hover {
 
 }
 
-/* Hero Style End */
 
-/* hero-cta start */
 .hero-cta {
   width: 35%;
   text-align: center;
@@ -150,10 +149,7 @@ header nav ul li a:hover {
   color: #324d8c;
 }
 
-/* hero-cta end */
 
-
-/*Intro*/
 .intro p {
   line-height: 1.7;
   color: #0e2459;
@@ -403,10 +399,6 @@ header nav ul li a:hover {
 
 /*End Jobs section*/
 
-
-
-
-
 /*Resume section*/
 
 .download-intro p {
@@ -444,8 +436,6 @@ header nav ul li a:hover {
 .column3 {
   margin-right: 0%;
 }
-
-
 
 .article {
   margin: 10px;
@@ -491,15 +481,6 @@ header nav ul li a:hover {
 
 }
 
-/* .download-text {
-  flex: 12;
-} */
-/* 
-.download-text p {
-  color: #328C83;
-  font-size: 32px;
-} */
-
 .column-title {
   color: #284e59;
   font-size: 25px;
@@ -520,10 +501,6 @@ header nav ul li a:hover {
 
 
 /*End resume section*/
-
-
-
-
 
 
 /* start styles to <footer> */
@@ -611,12 +588,12 @@ label {
   font-size: 25px;
 }
 
-/*Extra styling*/
+/* "Define a flex container for a flex row layout */
 .flex-row {
   display: flex;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* Adjust header styling for smaller desktop screens (max-width: 980px) */
 
 @media screen and (max-width: 980px) {
   header {
@@ -675,9 +652,7 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-  /* section {
-    padding: 30px 15px;
-  } */
+  
 
   .job h3 {
     flex: 1 100%;
