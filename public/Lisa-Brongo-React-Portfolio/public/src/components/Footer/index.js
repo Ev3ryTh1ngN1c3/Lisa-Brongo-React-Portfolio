@@ -5,7 +5,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 function Footer() {
   return (
     <footer>
-      <h2>by ✿ Lisa Brongo ✿</h2>
+      <h2>created by ✿ Lisa Brongo ✿</h2>
       <p>
         <ul>
           <a href="https://github.com/Ev3ryTh1ngN1c3">

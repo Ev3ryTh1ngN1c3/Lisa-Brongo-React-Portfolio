@@ -49,18 +49,18 @@ function Contact() {
       <div className="contact-info">
         <div>
           <h3>Hello {userName}</h3>
-          <p>Want to get in contact?</p>
+          <p>Contact me :</p>
           <address>
             Mt. Dora, Florida <br />
-            P: <a href="tel:352.988.8049">352.988.8049</a>
+            Phone : <a href="tel:352.988.8049">352.988.8049</a>
             <br />
-            E:{" "}
+            Email :{" "}
             <a href="mailto://brongoartdecor@gmail.com">
               BrongoArtDecor@gmail.com
             </a>
           </address>
           <p>
-            <strong>I'd love to hear your feedback!</strong>
+            <strong>Looking forward to hearing from you</strong>
           </p>
         </div>
 

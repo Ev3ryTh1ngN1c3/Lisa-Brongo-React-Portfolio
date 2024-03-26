@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
       {/* Footer title */}
-      <h2>created by Lisa Brongo ©</h2>
+      <h2>created by ✿ Lisa Brongo ✿</h2>
 
       {/* List of social icons */}
       <ul className="social-icons">

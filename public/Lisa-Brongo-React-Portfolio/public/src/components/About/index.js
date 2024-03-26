@@ -12,7 +12,7 @@ const About = () => {
           <div className="intro-img">
             <img src={profileImage} style={{ width: "100%" }} alt="Profile" />
           </div>
-          <p>Lisa Brongo</p>
+          {/* <p>Lisa Brongo</p> */}
           <p>
             Dedicated Junior Web Developer <br />
             A student at UCF's Coding BootCamp <br />
