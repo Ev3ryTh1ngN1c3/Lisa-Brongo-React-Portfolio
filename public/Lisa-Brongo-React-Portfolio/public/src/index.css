@@ -8,7 +8,7 @@
   /*main colors */
   --primary-color: #0e2459;
   --secondary-color: #0d326c;
-  --tertiary-color: #e3e8ed;
+  --tertiary-color: #072442;
 }
 
 #root {
@@ -20,7 +20,7 @@
 }
 
 body {
-  color: #557892;
+  color: #eaeef0;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -191,7 +191,7 @@ header nav ul li a:hover {
 /* REACH OUT STYLES START */
 #reach-out {
   /* margin-top: 5px; */
-  background: #abb8c4;
+  background: #a9b6c0;
 }
 
 #reach-out h2 {
@@ -540,11 +540,11 @@ footer div {
 }
 
 footer a {
-  color: #75afbf;
+  color: #b9c9cd;
 }
 
 footer a:hover {
-  color: #507886;
+  color: #7a898f;
   transition: .5s ease;
 }
 
@@ -557,7 +557,7 @@ footer a:hover {
 }
 
 .logo:hover {
-  color: #327b8c;
+  color: #ecf1f3;
   opacity: 0.5;
   transition: .5s ease;
 }
@@ -568,7 +568,7 @@ footer a:hover {
 /* extra titles stylings */
 .section-title {
   font-size: 48px;
-  color: #75abbf;
+  color: #032c3c;
   border-bottom: 3px solid;
   padding-bottom: 20px;
   text-align: center;
