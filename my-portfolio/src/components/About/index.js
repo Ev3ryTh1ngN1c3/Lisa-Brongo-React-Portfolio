@@ -1,16 +1,16 @@
 import React from "react";
 import profileImage from "../../assets/Profile/LinkedIn.png";
+import './about.css';
 
 const About = () => {
   return (
-    <section id="about-me" className="my-5 intro">
-      <div className="flex-row">
-        <h1 className="section-title primary-border">About Me</h1>
-      </div>
-      <div className="flex-row">
-        <div className="intro-info">
-          <div className="intro-img">
-            <img src={profileImage} style={{ width: "100%" }} alt="Profile" />
+    <section id="about-me" className="about">
+      {/* <div className=""> */}
+        <h1 className="">About Me</h1>
+      {/* </div> */}
+      <div className="aboutDetails">
+          <div className="aboutImg">
+            <img src={profileImage}  alt="Profile" />
           </div>
           {/* <p>Lisa Brongo</p> */}
           <p>
@@ -19,7 +19,7 @@ const About = () => {
             Experience in HTML, CSS & JavaScript <br />
             Seeking new technologies & staying up-to-date on trends in the industry
           </p>
-        </div>
+
       </div>
     </section>
   );

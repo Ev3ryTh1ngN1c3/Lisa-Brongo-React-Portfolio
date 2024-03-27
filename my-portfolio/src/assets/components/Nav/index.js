@@ -5,7 +5,7 @@ function Nav({ currentTab, handleTabChange }) {
   // Define an array of navigation items with their names & labels
   const navItems = [
     { name: 'About', label: 'About' },
-    { name: 'Portfolio', label: 'Portfolio' },
+    { name: '', label: 'Portfolio' },
     { name: 'Contact', label: 'Contact' },
     { name: 'Resume', label: 'Resume' },
   ];

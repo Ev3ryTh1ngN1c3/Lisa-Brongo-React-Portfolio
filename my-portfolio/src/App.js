@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header/index";
 import About from "./components/About/index";
 import Contact from "./components/Contact/index";
-// import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio/index";
 import Resume from "./components/Resume/index";
 import Footer from "./components/Footer/index";
 import { Helmet } from "react-helmet";
@@ -19,8 +19,8 @@ function App() {
         return <About />;
       case "Contact":
         return <Contact />;
-      // case "Portfolio":
-        // return <Portfolio />;
+      case "Portfolio":
+        return <Portfolio />;
       case "Resume":
         return <Resume />;
       default:
