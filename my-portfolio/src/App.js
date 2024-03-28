@@ -5,7 +5,7 @@ import Contact from "./components/Contact/index";
 import Portfolio from "./components/Portfolio/index";
 import Resume from "./components/Resume/index";
 import Footer from "./components/Footer/index";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import "./App.css";
 
 function App() {
@@ -30,9 +30,9 @@ function App() {
 
   return (
     <>
-      <Helmet>
+      {/* <Helmet> */}
         <title>Lisa Brongo's Portfolio | {currentTab}</title>
-      </Helmet>
+      {/* </Helmet> */}
       <Header
         currentTab={currentTab}
         handleTabChange={setCurrentTab}
