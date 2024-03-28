@@ -8,13 +8,13 @@
     background: #eee
 }
 .aboutDetails > p {
-    color: #000;
+    color: #074174;
     font-size: 1.2rem;
     margin-top: 20px;
 
 }
 .about > h1 {
-    color: #000;
+    color: #041451;
 }
 .aboutImg {
 object-fit: cover;
