@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    background: #eee
+}
+.aboutDetails > p {
+    color: #074174;
+    font-size: 1.2rem;
+    margin-top: 20px;
+
+}
+.about > h1 {
+    color: #041451;
+}
+.aboutImg {
+object-fit: cover;
+}
+.aboutImg  > img {
+border-radius: 50%;
+width:300px;
+height: 300px;
+object-fit: cover;
+}
