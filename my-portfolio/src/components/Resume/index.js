@@ -15,7 +15,7 @@ function Resume() {
         <div className="flex-row">
           <div className="download-info">
             <div className="download-text">
-              <a href="" className="download-logo" download>
+              <a href="www.google.com" className="download-logo" download>
                 <BsCloudDownload />
               </a>
               <p>
