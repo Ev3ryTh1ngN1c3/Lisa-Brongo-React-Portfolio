@@ -1,7 +1,9 @@
  # Lisa Brongo's React Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
+
+![portfolio website](https://github.com/Ev3ryTh1ngN1c3/Lisa-Brongo-React-Portfolio/assets/143395934/a2d14196-0b8b-4c93-97b8-3b096c79626b)
+
 # Table of Contents
 
   * [Description](#description)
