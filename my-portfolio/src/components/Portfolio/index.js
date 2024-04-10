@@ -229,7 +229,7 @@ function Portfolio() {
               <a href="https://github.com/David0864/Ink-Insights-">
                 {" "}
                 <img
-                  src={taskWizImageImage}
+                  src={Ink&InsightsImage}
                   className="my-2"
                   style={{ width: "100%" }}
                   alt="Ink Insights"
