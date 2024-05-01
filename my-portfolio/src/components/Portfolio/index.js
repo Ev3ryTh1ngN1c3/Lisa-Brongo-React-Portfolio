@@ -7,6 +7,7 @@ import noteTakerImageImage from "../../assets/small/Note Taker.png";
 import taskWizImageImage from "../../assets/small/TaskWiz 5.png"; 
 import WeatherDashboardImage from "../../assets/small/Weather Dashboard.jpg";
 import HoriseonImage from "../../assets/small/Horiseon.png";
+import InkInsightsImage from "../../assets/small/Ink & Insights.png";
 
 function Portfolio() {
   return (
@@ -229,8 +230,8 @@ function Portfolio() {
               <a href="https://github.com/David0864/Ink-Insights-">
                 {" "}
                 <img
-                  src={Ink&InsightsImage}
-                  className="my-2"
+                 // src={Ink&InsightsImage}
+                 // className="my-2"
                   style={{ width: "100%" }}
                   alt="Ink Insights"
                 />
