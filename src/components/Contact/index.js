@@ -7,38 +7,38 @@ function Contact() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
+  // const handleInputChange = (e) => {
+  //   const { name, value } = e.target;
 
-    if (name === "email") {
-      setEmail(value);
-    } else if (name === "userName") {
-      setUserName(value);
-    } else {
-      setMessage(value);
-    }
-  };
+  //   if (name === "email") {
+  //     setEmail(value);
+  //   } else if (name === "userName") {
+  //     setUserName(value);
+  //   } else {
+  //     setMessage(value);
+  //   }
+  // };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
 
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage("Email or Name is invalid");
-      return;
-    }
+  //   if (!validateEmail(email) || !userName) {
+  //     setErrorMessage("Email or Name is invalid");
+  //     return;
+  //   }
 
-    if (!message) {
-      setErrorMessage("Message is required.");
-      return;
-    }
+  //   if (!message) {
+  //     setErrorMessage("Message is required.");
+  //     return;
+  //   }
 
     // Handle form submission logic here
 
-    setUserName("");
-    setMessage("");
-    setEmail("");
-    setErrorMessage(""); // Clear error message after successful submission
-  };
+  //   setUserName("");
+  //   setMessage("");
+  //   setEmail("");
+  //   setErrorMessage(""); // Clear error message after successful submission
+  // };
 
   return (
     <section id="reach-out" className="contact">
