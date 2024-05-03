@@ -11,7 +11,7 @@ function Contact() {
 
       <div className="contact-info">
         <div>
-          <h3>Hello {userName}</h3>
+          <h3>Hello</h3>
           <p>Contact me :</p>
           <address>
             Mt. Dora, Florida <br />
