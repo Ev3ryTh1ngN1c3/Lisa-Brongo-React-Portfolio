@@ -6,6 +6,7 @@ import cuisineCompassImageImage from "../../assets/small/Cuisine Compass.png";
 import noteTakerImageImage from "../../assets/small/Note Taker.png";
 import taskWizImageImage from "../../assets/small/TaskWiz 5.png"; 
 import WeatherDashboardImage from "../../assets/small/Weather Dashboard.jpg";
+import InkInsightsImage from "../../assets/small/Ink & Insights.png";
 import HoriseonImage from "../../assets/small/Horiseon.png";
 
 function Portfolio() {
@@ -222,8 +223,35 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
+        <div className="job">
+          <div className="job-info">
+            <div className="job-img">
+              <a href="https://github.com/David0864/Ink-Insights-">
+                {" "}
+                <img
+                 // src={Ink&InsightsImage}
+                 // className="my-2"
+                  style={{ width: "100%" }}
+                  alt="Ink Insights"
+                  src={InkInsightsImage}
+                />
+              </a>
+            </div>
+            <div className="job-text">
+              <h4>Ink Insights</h4>
+              <p>
+              This interactive MERN Stack Application Book Club project is a collaborative effort that utilizes the MERN stack 
+              (MongoDB, Express.js, React, Node.js) to create a web application focused on managing a virtual book club. 
+              The project aims to provide users with a platform where they can discover, discuss,
+              & track books they are interested in. {" "}
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
+    
   );
 }
 

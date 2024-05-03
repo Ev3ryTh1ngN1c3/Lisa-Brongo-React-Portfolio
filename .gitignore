@@ -11,8 +11,6 @@
 # production
 /build
 
-/my-portfolio
-
 # misc
 .DS_Store
 .env.local
