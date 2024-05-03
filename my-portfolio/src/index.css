@@ -319,7 +319,7 @@ header nav ul li a:hover {
   font-size: 28px;
   font-style: italic;
   text-decoration: none;
-  color: #ffffff !important;
+  color: #d5e3f2 !important;
   animation: zoomInOut 4s infinite alternate;
 }
 .email-link{
