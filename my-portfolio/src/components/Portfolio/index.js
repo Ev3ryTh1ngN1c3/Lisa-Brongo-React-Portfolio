@@ -6,8 +6,8 @@ import cuisineCompassImageImage from "../../assets/small/Cuisine Compass.png";
 import noteTakerImageImage from "../../assets/small/Note Taker.png";
 import taskWizImageImage from "../../assets/small/TaskWiz 5.png"; 
 import WeatherDashboardImage from "../../assets/small/Weather Dashboard.jpg";
-import HoriseonImage from "../../assets/small/Horiseon.png";
 import InkInsightsImage from "../../assets/small/Ink & Insights.png";
+import HoriseonImage from "../../assets/small/Horiseon.png";
 
 function Portfolio() {
   return (
@@ -234,6 +234,7 @@ function Portfolio() {
                  // className="my-2"
                   style={{ width: "100%" }}
                   alt="Ink Insights"
+                  src={InkInsightsImage}
                 />
               </a>
             </div>

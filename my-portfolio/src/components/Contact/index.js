@@ -66,7 +66,9 @@ function Contact() {
 
         <div className="contact-form">
           <h3>Contact Me</h3>
-          <form className="form">
+<a href="mailto:brongoartdecor@gmail.com" className="email-link" ><p className="email-text">Shoot me an email ✉️</p></a>
+
+          {/* <form className="form">
             <label htmlFor="contact-name">Your Name</label>
             <input
               value={userName}
@@ -99,7 +101,7 @@ function Contact() {
             <button type="submit" onClick={handleFormSubmit}>
               Submit
             </button>
-          </form>
+          </form> */}
         </div>
 
         {errorMessage && (
